@@ -1,0 +1,27 @@
+//def add(int a,int b) {
+//    println a+b //3
+//}
+//def minus(a,b) {//2
+//    println a-b
+//}
+//add (1,2)
+//minus 1,2 //1
+
+
+int minus(a,b) {
+    return a-b
+}
+
+def number=minus (1,2)
+println number+"11"
+
+
+task hello{
+    println "hello world"
+}
+task(hello2){
+    println "hello world2"
+}
+task ('hello3'){
+    println "hello world3"
+}
